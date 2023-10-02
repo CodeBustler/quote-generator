@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Quote Generator| 64/100 Projects By CodeBustler</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			href="https://avatars.githubusercontent.com/u/110022096?v=4"
+		/>
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+		<script
+			src="https://kit.fontawesome.com/81d73e8e4d.js"
+			crossorigin="anonymous"
+		></script>
+		<script defer src="./script.js"></script>
+	</head>
+	<body>
+		<div class="app-container">
+			<h1>Quote for the day</h1>
+			<blockquote class="quote">Loading...</blockquote>
+			<p class="author">Loading...</p>
+			<div class="btns">
+				<button class="newQuoteBTN" onclick="newQuote(api_url)">
+					New Quote
+				</button>
+				<button class="tweetQuoteBTN" onclick="tweet()">
+					<i class="fa-brands fa-twitter"></i> Tweet
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
